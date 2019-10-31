@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ironhack</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+    />
+    <style>
+      nav {
+        background: url(./images/banner.jpg);
+        padding-top: 80px;
+        padding-bottom: 100px;
+        height: 450px;
+      }
+
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        /* align-items: ; */
+        justify-content: flex-end;
+        list-style: none;
+        margin-right: 50px;
+      }
+
+      @media screen and (min-width: 600px) {
+        nav ul {
+          flex-direction: row;
+        }
+      }
+
+      li {
+        margin-right: 25px;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(200, 200, 200);
+        transition: color 0.5s;
+      }
+
+      a:hover {
+        cursor: auto;
+        color: white;
+      }
+
+      nav h1 {
+        color: white;
+        font-size: 30px;
+        margin-left: 40px;
+      }
+
+      nav h2 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 120px;
+        transition: all 0.5s;
+      }
+
+      @media screen and (min-width: 600px) {
+        nav h2 {
+          font-size: 70px;
+        }
+      }
+
+      nav p {
+        color: grey;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      section {
+        display: flex;
+        width: 100%;
+        margin-top: 80px;
+      }
+
+      section ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+      @media screen and (min-width: 1000px) {
+        section ul {
+          justify-content: space-between;
+          flex-direction: row;
+        }
+      }
+
+      section li {
+        width: 100%;
+        padding: 20px;
+      }
+
+      @media screen and (min-width: 1000px) {
+        section li {
+          width: 25%;
+          margin-right: 20px;
+          padding: 20px;
+          border-right: 1px solid rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      section li:last-child {
+        margin-right: 0;
+      }
+
+      section h3 {
+        color: #5385c1;
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      @media screen and (min-width: 1000px) {
+        section h3 {
+          text-align: left;
+        }
+      }
+
+      section p {
+        margin-bottom: 30px;
+        color: grey;
+        text-align: center;
+      }
+
+      @media screen and (min-width: 1000px) {
+        section p {
+          text-align: left;
+        }
+      }
+
+      section button {
+        background: #5385c1;
+        color: white;
+        padding: 20px 40px 20px 40px;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Theory</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="generic.html">Generic</a></li>
+        <li><a href="elements.html">Elements</a></li>
+      </ul>
+      <h2>Welcome to Theory</h2>
+      <p>A free responsive HTML5 website template by TEMPLATED.</p>
+    </nav>
+    <section>
+      <ul>
+        <li>
+          <h3>Magna tempus sed amet aliquam veroeros</h3>
+          <p>
+            Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna
+            a ullamcorper laoreet, lectus arcu.
+          </p>
+          <button>More</button>
+        </li>
+        <li>
+          <h3>Magna tempus sed amet aliquam veroeros</h3>
+          <p>
+            Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna
+            a ullamcorper laoreet, lectus arcu.
+          </p>
+          <button>More</button>
+        </li>
+        <li>
+          <h3>Magna tempus sed amet aliquam veroeros</h3>
+          <p>
+            Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna
+            a ullamcorper laoreet, lectus arcu.
+          </p>
+          <button>More</button>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
